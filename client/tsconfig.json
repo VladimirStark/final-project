@@ -1,0 +1,12 @@
+{
+    "include": ["./src"],
+    "exclude": ["node_modules"],
+    "compilerOptions": {
+        "checkJs": true,
+        "strict": true,
+        "jsx": "react",
+        "esModuleInterop": true,
+        "target":"ES2017",
+        "moduleResolution": "Bundler"
+    }
+}
